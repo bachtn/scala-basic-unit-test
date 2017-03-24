@@ -1,0 +1,47 @@
+# Scala
+target
+*.class
+
+# sbt specific
+.cache/
+.history/
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+out
+src/main/java
+src/main/scala-2.12
+test/java
+test/scala-2.12
+
+
+# Vim
+tags
+.*.swp
+.*.swo
+
+# Eclipse
+build
+.classpath
+.project
+.settings
+org.scala-ide.sdt.core/META-INF/MANIFEST.MF
+org.scala-ide.sdt.update-site/site.xml`
+
+# OS X
+.DS_Store
